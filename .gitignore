@@ -1,0 +1,57 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Static files collected by Django
+staticfiles/
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Migrations: keep these!
+# Do not ignore migrations because they are part of your Django app.
+# */migrations/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Type checking and linting
+.mypy_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
