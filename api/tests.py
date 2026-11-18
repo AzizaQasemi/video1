@@ -36,6 +36,6 @@ class UserOrderTestCsse(TestCase):
         
     def test_user_order_list_unauthenticated(self):
         response = self.client.get(reverse('user-orders'))
-        self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)
+        self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
         
         # self.assertEqual(len(data), 2)
